@@ -19,28 +19,30 @@ Show
 Show
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
 	Rarity = Normal
-	SetFontSize 42
 	SetBorderColor 0 0 255
 	
 Show
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
 	Rarity = Magic
 	Quality >= 12
-	SetFontSize 42
 	SetBorderColor 0 0 255
 	
 Show
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
 	Rarity = Rare
 	Quality >= 16
-	SetFontSize 42
 	SetBorderColor 0 0 255
+	
+#Chromatic Orb 
+Show
+    SocketGroup RGB
+	SetBorderColor 255 0 255
 
 # Maraketh Bases
 #Show
 #    BaseType "Sai" "Fleshripper" "Eclipse Staff" "Dragoon Sword" "Gemini Claw" "Exquisite Blade" "Behemoth Mace" "Maraketh Bow" "Tiger Hook" "Profane Wand" "Runic Hatchet" "Sambar Sceptre" "Coronal Maul" "Sacrificial Garb"
 #    SetFontSize 44
-#	SetTextColor 230 214 177
+#	 SetTextColor 230 214 177
 #    SetBorderColor 230 214 177
 	
 # Atlas of Worlds New Crafting Item Bases - No Resistance Boots Obviously
@@ -76,10 +78,6 @@ Show
     Sockets 6
     PlayAlertSound 4 75
 	SetBorderColor 0 255 0
-    
-Show
-    SocketGroup RGB
-	SetBorderColor 255 0 255
 
 Show
     ItemLevel <= 68

@@ -1,0 +1,92 @@
+Show
+    Quality = 20	
+    SetFontSize 42
+    SetBorderColor 0 0 255
+
+Show
+    Class Gem Map Currency "Card" Jewel "Fishing Rods" "Quest Items" "Utility Flasks" "Map Fragments"
+	
+	
+# High Priority Chance Orb Bases
+Show
+    ItemLevel >= 60
+    Rarity = Normal
+    BaseType "Occultist's Vestment" "Prophecy Wand" "Judgement Staff" "Gold Ring" "Glorious Plate" "Sorcerer Boots" "Desert Brigandine" "Assassin's Garb" "Jewelled Foil" "Deicide Mask"
+    SetBackgroundColor 31 17 7
+    SetBorderColor 175 96 37 193
+	
+# Chisel Recipe
+Show
+    BaseType "Gavel" "Stone Hammer" "Rock Breaker"
+	Rarity = Normal
+	SetFontSize 42
+	SetBorderColor 0 0 255
+	
+Show
+    BaseType "Gavel" "Stone Hammer" "Rock Breaker"
+	Rarity = Magic
+	Quality >= 12
+	SetFontSize 42
+	SetBorderColor 0 0 255
+	
+Show
+    BaseType "Gavel" "Stone Hammer" "Rock Breaker"
+	Rarity = Rare
+	Quality >= 16
+	SetFontSize 42
+	SetBorderColor 0 0 255
+
+# Maraketh Bases
+#Show
+#    BaseType "Sai" "Fleshripper" "Eclipse Staff" "Dragoon Sword" "Gemini Claw" "Exquisite Blade" "Behemoth Mace" "Maraketh Bow" "Tiger Hook" "Profane Wand" "Runic Hatchet" "Sambar Sceptre" "Coronal Maul" "Sacrificial Garb"
+#    SetFontSize 44
+#	SetTextColor 230 214 177
+#    SetBorderColor 230 214 177
+	
+# Atlas of Worlds New Crafting Item Bases - No Resistance Boots Obviously
+Show
+    BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
+    SetBorderColor 3 88 171
+    SetFontSize 38
+	
+Show
+    LinkedSockets >= 5
+    PlayAlertSound 4 75
+    SetFontSize 42
+    SetBorderColor 255 0 0
+	
+Show
+    Quality >= 14	
+	
+Show
+	BaseType Flask
+    Quality >= 1
+    
+Show
+    Rarity >= Rare
+	ItemLevel >= 60
+	SetFontSize 42
+    PlayAlertSound 4 75    
+	
+Show
+    Rarity >= Rare
+    PlayAlertSound 4 75
+    
+Show
+    Sockets 6
+    PlayAlertSound 4 75
+	SetBorderColor 0 255 0
+    
+Show
+    SocketGroup RGB
+	SetBorderColor 255 0 255
+
+Show
+    ItemLevel <= 68
+    LinkedSockets >= 4
+	
+Show
+    ItemLevel <= 35
+    LinkedSockets >= 3
+    
+Hide

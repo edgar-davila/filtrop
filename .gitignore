@@ -1,18 +1,15 @@
 # Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+production_Config.ini
 
 # Other files and folders
-.settings/
+MOTDCache/
+Minimap/
+Screenshots/
 
 # Executables
-*.swf
-*.air
-*.ipa
-*.apk
+*.dmp
+*.txt
+*.png
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important

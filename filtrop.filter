@@ -1,11 +1,16 @@
 Show
+    LinkedSockets >= 5
+    PlayAlertSound 4 75
+    SetFontSize 42
+    SetBorderColor 255 0 0
+
+Show
     Quality = 20	
     SetFontSize 42
     SetBorderColor 0 0 255
 
 Show
-    Class Gem Map Currency "Card" Jewel "Fishing Rods" "Quest Items" "Utility Flasks" "Map Fragments"
-	
+    Class Gem Map "Card" Jewel "Fishing Rods" "Quest Items" "Utility Flasks" "Map Fragments"
 	
 # High Priority Chance Orb Bases
 Show
@@ -33,6 +38,21 @@ Show
 	Quality >= 16
 	SetBorderColor 0 0 255
 	
+# Currency Tier Highlighting
+Show
+    BaseType "Exalted Orb" "Eternal Orb" "Divine Orb" "Master Cartographer's Seal" "Master Cartographer's Sextant"
+    SetBorderColor 204 204 0
+    SetFontSize 45
+    PlayAlertSound 7 100
+
+Show
+    BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Cartographer's Chisel" "Orb of Regret" "Glassblower's Bauble" "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
+    SetBorderColor 204 204 0
+    SetFontSize 43
+
+Show
+    Class "Stackable Currency" "Currency"
+	
 #Chromatic Orb 
 Show
     SocketGroup RGB
@@ -50,12 +70,6 @@ Show
     BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
     SetBorderColor 3 88 171
     SetFontSize 38
-	
-Show
-    LinkedSockets >= 5
-    PlayAlertSound 4 75
-    SetFontSize 42
-    SetBorderColor 255 0 0
 	
 Show
     Quality >= 14	

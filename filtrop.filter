@@ -48,15 +48,19 @@ Show
 Show
     BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Cartographer's Chisel" "Orb of Regret" "Glassblower's Bauble" "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
     SetBorderColor 204 204 0
-    SetFontSize 43
-
-Show
-    Class "Stackable Currency" "Currency"
+    SetFontSize 40
 	
 #Chromatic Orb 
 Show
+    BaseType "Chromatic Orb"
+	SetBorderColor 255 0 255
+	
+Show
     SocketGroup RGB
 	SetBorderColor 255 0 255
+	
+Show
+    Class "Stackable Currency" "Currency"
 
 # Maraketh Bases
 #Show

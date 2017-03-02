@@ -50,6 +50,12 @@ Show
     SetBorderColor 204 204 0
     SetFontSize 40
 	
+# Legacy league changes
+Show
+    Class "Misc Map Items" "Leaguestone"
+    SetBorderColor 204 204 0
+    SetFontSize 40
+	
 #Chromatic Orb 
 Show
     BaseType "Chromatic Orb"

@@ -1,3 +1,12 @@
+
+Show
+    BaseType "Mirror of Kalandra"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 128 255
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSound 8 100
+
 Show
     LinkedSockets >= 5
     PlayAlertSound 4 75
@@ -9,6 +18,14 @@ Show
     SetFontSize 42
     SetBorderColor 0 0 255
 
+# Quality Gems
+Show
+    Class Gem
+    BaseType "Enhance" "Enlighten" "Empower" "Portal" "Added Chaos Damage"
+    SetBackgroundColor 0 0 0
+    SetBorderColor 0 128 128
+    SetFontSize 43
+	
 Show
     Class Gem Map "Card" Jewel "Fishing Rods" "Quest Items" "Utility Flasks" "Map Fragments"
 	

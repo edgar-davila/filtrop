@@ -159,4 +159,8 @@ Show
     ItemLevel <= 35
     LinkedSockets >= 3
     
+Show
+    Corrupted True
+    SetTextColor 255 0 0
+    
 Hide

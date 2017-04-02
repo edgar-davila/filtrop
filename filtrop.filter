@@ -6,7 +6,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSound 8 100
-
+	
 Show
     LinkedSockets >= 5
     PlayAlertSound 4 75
@@ -159,4 +159,8 @@ Show
     ItemLevel <= 35
     LinkedSockets >= 3
     
+Show
+	BaseType "Talisman"
+	SetTextColor 255 0 0
+	
 Hide

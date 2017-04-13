@@ -161,6 +161,10 @@ Show
     
 Show
 	BaseType "Talisman"
+	SetTextColor 255 0 0    
+	
+Show
+	BaseType "Breach Ring"
 	SetTextColor 255 0 0
 	
 Hide

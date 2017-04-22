@@ -99,7 +99,17 @@ Show
 #Chromatic Orb 
 Show
     BaseType "Chromatic Orb"
-	SetBorderColor 255 0 255
+	SetBorderColor 255 0 255	
+	
+#Perandus
+Show
+    BaseType "Perandus Coin"
+	SetTextColor 255 255 0	
+	
+#Silver Coin 
+Show
+    BaseType "Silver Coin"
+	SetTextColor 255 0 255
 	
 Show
     SocketGroup RGB
@@ -122,12 +132,12 @@ Show
     SetFontSize 38
 	
 Show
-    Quality >= 14	
+	BaseType "Talisman"
+	SetTextColor 255 0 0    
 	
 Show
-	BaseType Flask
-    Quality >= 1
-    
+	BaseType "Breach Ring"
+	SetTextColor 255 0 0
 Show
     Class "Amulet" "Ring" "Belt"
     Rarity = Rare
@@ -158,13 +168,12 @@ Show
 Show
     ItemLevel <= 35
     LinkedSockets >= 3
-    
-Show
-	BaseType "Talisman"
-	SetTextColor 255 0 0    
 	
 Show
-	BaseType "Breach Ring"
-	SetTextColor 255 0 0
+    Quality >= 14	
+	
+Show
+	BaseType Flask
+    Quality >= 1
 	
 Hide

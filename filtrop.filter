@@ -101,6 +101,11 @@ Show
     BaseType "Chromatic Orb"
 	SetBorderColor 255 0 255	
 	
+#Splinters
+Show
+	BaseType "Splinter of"
+	SetTextColor 255 0 0
+
 #Perandus
 Show
     BaseType "Perandus Coin"
@@ -138,6 +143,7 @@ Show
 Show
 	BaseType "Breach Ring"
 	SetTextColor 255 0 0
+	
 Show
     Class "Amulet" "Ring" "Belt"
     Rarity = Rare

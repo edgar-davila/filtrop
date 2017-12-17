@@ -60,19 +60,22 @@ Show
     SetBackgroundColor 31 17 7
     SetBorderColor 175 96 37 193
 	
-# Chisel Recipe
+# Chisel Recipe in maps
 Show
+    ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
 	Rarity = Normal
 	SetBorderColor 0 0 255
 	
 Show
+    ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
 	Rarity = Magic
 	Quality >= 12
 	SetBorderColor 0 0 255
 	
 Show
+    ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
 	Rarity = Rare
 	Quality >= 16
@@ -84,44 +87,52 @@ Show
     SetBorderColor 204 204 0
     SetFontSize 45
     PlayAlertSound 7 100
+	SetTextColor 0 150 0
 
 Show
     BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Cartographer's Chisel" "Orb of Regret" "Glassblower's Bauble" "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
     SetBorderColor 204 204 0
     SetFontSize 40
-	
-# Legacy league changes
-Show
-    Class "Misc Map Items" "Leaguestone"
-    SetBorderColor 204 204 0
-    SetFontSize 40
-	
-#Chromatic Orb 
-Show
-    BaseType "Chromatic Orb"
-	SetBorderColor 255 0 255	
-	
-#Splinters
-Show
-	BaseType "Splinter of"
-	SetTextColor 255 0 0
+	SetTextColor 0 150 0
 
-#Perandus
-Show
-    BaseType "Perandus Coin"
-	SetTextColor 255 255 0	
-	
-#Silver Coin 
 Show
     BaseType "Silver Coin"
 	SetTextColor 255 0 255
 	
 Show
-    SocketGroup RGB
-	SetBorderColor 255 0 255
+    BaseType "Chromatic Orb"
+	SetBorderColor 255 0 255	
+	SetTextColor 0 150 0
+	
+Show
+	BaseType "Splinter of"
+	SetTextColor 255 0 0
+
+Show
+    BaseType "Perandus Coin"
+	SetTextColor 255 255 0	
 	
 Show
     Class "Stackable Currency" "Currency"
+	SetTextColor 0 150 0
+	
+# Legacy league changes
+Show
+    Class "Misc Map Items"
+    SetBorderColor 204 204 0
+    SetFontSize 40
+	
+Show
+    Height = 3
+	Width = 1
+    SocketGroup RGB
+	SetBorderColor 255 0 255	
+	
+Show
+    Height = 2
+	Width = 2
+    SocketGroup RGB
+	SetBorderColor 255 0 255
 
 # Maraketh Bases
 #Show
@@ -180,6 +191,6 @@ Show
 	
 Show
 	BaseType Flask
-    Quality >= 1
+    Quality >= 10
 	
 Hide

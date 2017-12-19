@@ -31,8 +31,8 @@ Show
     DropLevel >= 78
     Class "Maps"
     SetFontSize 44
-	SetTextColor 255 0 0
-	SetBackgroundColor 86 170 255
+    SetTextColor 255 0 0
+    SetBackgroundColor 86 170 255
 
 # Mid Tier Maps
 Show
@@ -40,14 +40,14 @@ Show
     DropLevel <= 77
     Class "Maps"
     SetFontSize 40
-	SetTextColor 255 255 0
-	SetBackgroundColor 86 170 255
+    SetTextColor 255 255 0
+    SetBackgroundColor 86 170 255
 	
 Show
     Class Map
     SetFontSize 37
-	SetTextColor 0 0 0
-	SetBackgroundColor 86 170 255
+    SetTextColor 0 0 0
+    SetBackgroundColor 86 170 255
 	
 Show
     Class Gem "Card" Jewel "Fishing Rods" "Quest Items" "Utility Flasks" "Map Fragments"
@@ -64,22 +64,22 @@ Show
 Show
     ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
-	Rarity = Normal
-	SetBorderColor 0 0 255
+    Rarity = Normal
+    SetBorderColor 0 0 255
 	
 Show
     ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
-	Rarity = Magic
-	Quality >= 12
-	SetBorderColor 0 0 255
+    Rarity = Magic
+    Quality >= 12
+    SetBorderColor 0 0 255
 	
 Show
     ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
-	Rarity = Rare
-	Quality >= 16
-	SetBorderColor 0 0 255
+    Rarity = Rare
+    Quality >= 16
+    SetBorderColor 0 0 255
 	
 # Currency Tier Highlighting
 Show
@@ -87,34 +87,34 @@ Show
     SetBorderColor 204 204 0
     SetFontSize 45
     PlayAlertSound 7 100
-	SetTextColor 0 150 0
+    SetTextColor 0 150 0
 
 Show
     BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Cartographer's Chisel" "Orb of Regret" "Glassblower's Bauble" "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
     SetBorderColor 204 204 0
     SetFontSize 40
-	SetTextColor 0 150 0
+    SetTextColor 0 150 0
 
 Show
     BaseType "Silver Coin"
-	SetTextColor 255 0 255
+    SetTextColor 255 0 255
 	
 Show
     BaseType "Chromatic Orb"
-	SetBorderColor 255 0 255	
-	SetTextColor 0 150 0
+    SetBorderColor 255 0 255	
+    SetTextColor 0 150 0
 	
 Show
-	BaseType "Splinter of"
-	SetTextColor 255 0 0
+    BaseType "Splinter of"
+    SetTextColor 255 0 0
 
 Show
     BaseType "Perandus Coin"
-	SetTextColor 255 255 0	
+    SetTextColor 255 255 0	
 	
 Show
     Class "Stackable Currency" "Currency"
-	SetTextColor 0 150 0
+    SetTextColor 0 150 0
 	
 # Legacy league changes
 Show
@@ -124,15 +124,15 @@ Show
 	
 Show
     Height = 3
-	Width = 1
+    Width = 1
     SocketGroup RGB
-	SetBorderColor 255 0 255	
+    SetBorderColor 255 0 255	
 	
 Show
     Height = 2
-	Width = 2
+    Width = 2
     SocketGroup RGB
-	SetBorderColor 255 0 255
+    SetBorderColor 255 0 255
 
 # Maraketh Bases
 #Show
@@ -148,25 +148,25 @@ Show
     SetFontSize 38
 	
 Show
-	BaseType "Talisman"
-	SetTextColor 255 0 0    
+    BaseType "Talisman"
+    SetTextColor 255 0 0    
 	
 Show
-	BaseType "Breach Ring"
-	SetTextColor 255 0 0
+    BaseType "Breach Ring"
+    SetTextColor 255 0 0
 	
 Show
     Class "Amulet" "Ring" "Belt"
     Rarity = Rare
-	ItemLevel >= 60
+    ItemLevel >= 60
     SetBackgroundColor 255 255 0
-	SetTextColor 0 0 0
+    SetTextColor 0 0 0
     PlayAlertSound 4 75
 
 Show
     Rarity = Rare
-	ItemLevel >= 60
-	SetBorderColor 255 255 0
+    ItemLevel >= 60
+    SetBorderColor 255 255 0
     PlayAlertSound 4 75    
 	
 Show
@@ -176,7 +176,7 @@ Show
 Show
     Sockets 6
     PlayAlertSound 4 75
-	SetBorderColor 0 255 0
+    SetBorderColor 0 255 0
 
 Show
     ItemLevel <= 68
@@ -190,7 +190,7 @@ Show
     Quality >= 14	
 	
 Show
-	BaseType Flask
+    BaseType Flask
     Quality >= 10
 	
 Hide

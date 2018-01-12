@@ -94,6 +94,12 @@ Show
     SetBorderColor 204 204 0
     SetFontSize 40
     SetTextColor 0 150 0
+	
+Show
+    BaseType "Remnant of Corruption" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Deafening Essence of" "Shrieking Essence of"
+    SetBorderColor 204 204 0
+    SetFontSize 40
+    SetTextColor 255 0 0
 
 Show
     BaseType "Silver Coin"
@@ -105,7 +111,7 @@ Show
     SetTextColor 0 150 0
 	
 Show
-    BaseType "Splinter of"
+    BaseType "Splinter of" 
     SetTextColor 255 0 0
 
 Show

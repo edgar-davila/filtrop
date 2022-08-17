@@ -6,7 +6,7 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 45
     PlayAlertSound 8 100
-	
+    
 Show
     LinkedSockets >= 5
     PlayAlertSound 4 75
@@ -14,7 +14,7 @@ Show
     SetBorderColor 255 0 0
 
 Show
-    Quality = 20	
+    Quality = 20    
     SetFontSize 42
     SetBorderColor 0 0 255
 
@@ -25,33 +25,32 @@ Show
     SetBackgroundColor 0 0 0
     SetBorderColor 0 128 128
     SetFontSize 43
-	
+    
 # High Tier Maps
 Show
-    DropLevel >= 78
-    Class "Maps"
+    MapTier > 10
+    Class Map
     SetFontSize 44
     SetTextColor 255 0 0
     SetBackgroundColor 86 170 255
 
 # Mid Tier Maps
 Show
-    DropLevel >= 73
-    DropLevel <= 77
-    Class "Maps"
+    MapTier > 5
+    Class Map
     SetFontSize 40
     SetTextColor 255 255 0
     SetBackgroundColor 86 170 255
-	
+    
 Show
     Class Map
     SetFontSize 37
     SetTextColor 0 0 0
     SetBackgroundColor 86 170 255
-	
+    
 Show
     Class Gem "Card" Jewel "Fishing Rods" "Quest Items" "Utility Flasks" "Map Fragments"
-	
+    
 # Highest Defense Bases
 #All
 Show
@@ -62,53 +61,53 @@ Show
 Show
     BaseType "Glorious Plate" "Colossal Tower Shield" "Titan Greaves" "Titan Gauntlets" "Royal Burgonet"
     SetBackgroundColor 150 0 0
-	
+    
 #Intelligence
 Show
     BaseType "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Gloves" "Sorcerer Boots" "Vaal Regalia"
-    SetBackgroundColor 0 0 150	
-	
+    SetBackgroundColor 0 0 150    
+    
 #Dexterity
 Show
     BaseType "Slink Boots" "Zodiac Leather" "Slink Gloves" "Lion Pelt" "Lacquered Buckler"
     SetBackgroundColor 0 150 0
-	
+    
 #Str/Int
 Show
     BaseType "Saint's Hauberk" "Crusader Gloves" "Prophet Crown" "Champion Kite Shield"
     SetBackgroundColor 150 0 0
-    SetTextColor 0 0 255	
-	
+    SetTextColor 0 0 255    
+    
 #Int/Str
 Show
     BaseType "Saintly Chainmail" "Apothecary's Gloves" "Praetor Crown"
     SetBackgroundColor 0 0 150
-    SetTextColor 255 0 0	
-	
+    SetTextColor 255 0 0    
+    
 #Int/Dex
 Show
     BaseType "Carnal Armour" "Fugitive Boots" "Murder Mitts" "Deicide Mask" "Supreme Spiked Shield"
     SetBackgroundColor 0 0 150
-    SetTextColor 0 255 0	
-	
+    SetTextColor 0 255 0    
+    
 #Dex/Int
 Show
     BaseType "Blood Raiment" "Murder Boots" "Vaal Mask"
     SetBackgroundColor 0 255 0
     SetTextColor 0 0 150
-	
+    
 #Str/Dex
 Show
     BaseType "Full Dragonscale" "Dragonscale Gauntlets" "Pig-Faced Bascinet" "Cardinal Round Shield"
     SetBackgroundColor 150 0 0
     SetTextColor 0 255 0
-	
+    
 #Dex/Str
 Show
     BaseType "Triumphant Lamellar" "Nightmare Bascinet"
     SetBackgroundColor 0 150 0
     SetTextColor 255 0 0
-	
+    
 # High Priority Chance Orb Bases
 Show
     ItemLevel >= 60
@@ -116,28 +115,28 @@ Show
     BaseType "Occultist's Vestment" "Prophecy Wand" "Judgement Staff" "Gold Ring" "Sorcerer Boots" "Desert Brigandine" "Assassin's Garb" "Jewelled Foil"
     SetBackgroundColor 31 17 7
     SetBorderColor 175 96 37 193
-	
+    
 # Chisel Recipe in maps
 Show
     ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
     Rarity = Normal
     SetBorderColor 0 0 255
-	
+    
 Show
     ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
     Rarity = Magic
     Quality >= 12
     SetBorderColor 0 0 255
-	
+    
 Show
     ItemLevel >= 68
     BaseType "Gavel" "Stone Hammer" "Rock Breaker"
     Rarity = Rare
     Quality >= 16
     SetBorderColor 0 0 255
-	
+    
 # Currency Tier Highlighting
 Show
     BaseType "Exalted Orb" "Eternal Orb" "Divine Orb" "Master Cartographer's Seal" "Sextant"
@@ -151,7 +150,7 @@ Show
     SetBorderColor 204 204 0
     SetFontSize 40
     SetTextColor 0 150 0
-	
+    
 Show
     BaseType "Remnant of Corruption" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Deafening Essence of" "Shrieking Essence of"
     SetBorderColor 204 204 0
@@ -161,35 +160,35 @@ Show
 Show
     BaseType "Silver Coin"
     SetTextColor 255 0 255
-	
+    
 Show
     BaseType "Chromatic Orb"
-    SetBorderColor 255 0 255	
+    SetBorderColor 255 0 255    
     SetTextColor 0 150 0
-	
+    
 Show
     BaseType "Splinter of" 
     SetTextColor 255 0 0
 
 Show
     BaseType "Perandus Coin"
-    SetTextColor 255 255 0	
-	
+    SetTextColor 255 255 0    
+    
 Show
     Class "Stackable Currency" "Currency"
     SetTextColor 0 150 0
-	
+    
 Show
     Class "Misc Map Items"
     SetBorderColor 204 204 0
     SetFontSize 40
-	
+    
 Show
     Height = 3
     Width = 1
     SocketGroup RGB
-    SetBorderColor 255 0 255	
-	
+    SetBorderColor 255 0 255    
+    
 Show
     Height = 2
     Width = 2
@@ -200,23 +199,23 @@ Show
 #Show
 #    BaseType "Sai" "Fleshripper" "Eclipse Staff" "Dragoon Sword" "Gemini Claw" "Exquisite Blade" "Behemoth Mace" "Maraketh Bow" "Tiger Hook" "Profane Wand" "Runic Hatchet" "Sambar Sceptre" "Coronal Maul" "Sacrificial Garb"
 #    SetFontSize 44
-#    SetTextColor 230 214 177
+#     SetTextColor 230 214 177
 #    SetBorderColor 230 214 177
-	
+    
 # Atlas of Worlds New Crafting Item Bases - No Resistance Boots Obviously
 Show
     BaseType "Steel Ring" "Opal Ring" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Crystal Belt" "Bone Helmet" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"
     SetBorderColor 3 88 171
     SetFontSize 38
-	
+    
 Show
     BaseType "Talisman"
     SetTextColor 255 0 0    
-	
+    
 Show
     BaseType "Breach Ring"
     SetTextColor 255 0 0
-	
+    
 Show
     Class "Amulet" "Ring" "Belt"
     Rarity = Rare
@@ -230,7 +229,7 @@ Show
     ItemLevel >= 60
     SetBorderColor 255 255 0
     PlayAlertSound 4 75    
-	
+    
 Show
     Rarity >= Rare
     PlayAlertSound 4 75
@@ -243,20 +242,20 @@ Show
 Show
     ItemLevel <= 68
     LinkedSockets >= 4
-	
+    
 Show
     ItemLevel <= 35
     LinkedSockets >= 3
-	
+    
 Show
-    Quality >= 14	
-	
+    Quality >= 14    
+    
 Show
     BaseType "Hallowed Life Flask" "Divine Life Flask"
     SetBorderColor 255 165 0
-	
+    
 Show
     BaseType Flask
     Quality >= 10
-	
+    
 Hide

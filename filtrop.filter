@@ -21,7 +21,7 @@ Show
 # Quality Gems
 Show
     Class Gem
-    BaseType "Enhance" "Enlighten" "Empower" "Portal" "Added Chaos Damage"
+    BaseType "Enhance" "Enlighten" "Empower" "Portal" "Awakened"
     SetBackgroundColor 0 0 0
     SetBorderColor 0 128 128
     SetFontSize 43
@@ -52,11 +52,68 @@ Show
 Show
     Class Gem "Card" Jewel "Fishing Rods" "Quest Items" "Utility Flasks" "Map Fragments"
 	
+# Highest Defense Bases
+#All
+Show
+    BaseType "Two-Toned Boots" "Grasping Mail" "Sacrificial Garb"
+    SetBackgroundColor 155 0 155
+
+#Strength
+Show
+    BaseType "Glorious Plate" "Colossal Tower Shield" "Titan Greaves" "Titan Gauntlets" "Royal Burgonet"
+    SetBackgroundColor 150 0 0
+	
+#Intelligence
+Show
+    BaseType "Hubris Circlet" "Titanium Spirit Shield" "Sorcerer Gloves" "Sorcerer Boots" "Vaal Regalia"
+    SetBackgroundColor 0 0 150	
+	
+#Dexterity
+Show
+    BaseType "Slink Boots" "Zodiac Leather" "Slink Gloves" "Lion Pelt" "Lacquered Buckler"
+    SetBackgroundColor 0 150 0
+	
+#Str/Int
+Show
+    BaseType "Saint's Hauberk" "Crusader Gloves" "Prophet Crown" "Champion Kite Shield"
+    SetBackgroundColor 150 0 0
+    SetTextColor 0 0 255	
+	
+#Int/Str
+Show
+    BaseType "Saintly Chainmail" "Apothecary's Gloves" "Praetor Crown"
+    SetBackgroundColor 0 0 150
+    SetTextColor 255 0 0	
+	
+#Int/Dex
+Show
+    BaseType "Carnal Armour" "Fugitive Boots" "Murder Mitts" "Deicide Mask" "Supreme Spiked Shield"
+    SetBackgroundColor 0 0 150
+    SetTextColor 0 255 0	
+	
+#Dex/Int
+Show
+    BaseType "Blood Raiment" "Murder Boots" "Vaal Mask"
+    SetBackgroundColor 0 255 0
+    SetTextColor 0 0 150
+	
+#Str/Dex
+Show
+    BaseType "Full Dragonscale" "Dragonscale Gauntlets" "Pig-Faced Bascinet" "Cardinal Round Shield"
+    SetBackgroundColor 150 0 0
+    SetTextColor 0 255 0
+	
+#Dex/Str
+Show
+    BaseType "Triumphant Lamellar" "Nightmare Bascinet"
+    SetBackgroundColor 0 150 0
+    SetTextColor 255 0 0
+	
 # High Priority Chance Orb Bases
 Show
     ItemLevel >= 60
     Rarity = Normal
-    BaseType "Occultist's Vestment" "Prophecy Wand" "Judgement Staff" "Gold Ring" "Glorious Plate" "Sorcerer Boots" "Desert Brigandine" "Assassin's Garb" "Jewelled Foil" "Deicide Mask"
+    BaseType "Occultist's Vestment" "Prophecy Wand" "Judgement Staff" "Gold Ring" "Sorcerer Boots" "Desert Brigandine" "Assassin's Garb" "Jewelled Foil"
     SetBackgroundColor 31 17 7
     SetBorderColor 175 96 37 193
 	
@@ -83,14 +140,14 @@ Show
 	
 # Currency Tier Highlighting
 Show
-    BaseType "Exalted Orb" "Eternal Orb" "Divine Orb" "Master Cartographer's Seal" "Master Cartographer's Sextant"
+    BaseType "Exalted Orb" "Eternal Orb" "Divine Orb" "Master Cartographer's Seal" "Sextant"
     SetBorderColor 204 204 0
     SetFontSize 45
     PlayAlertSound 7 100
     SetTextColor 0 150 0
 
 Show
-    BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Cartographer's Chisel" "Orb of Regret" "Glassblower's Bauble" "Journeyman Cartographer's Seal" "Journeyman Cartographer's Sextant" "Apprentice Cartographer's Seal" "Apprentice Cartographer's Sextant"
+    BaseType "Chaos Orb" "Gemcutter's Prism" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Orb of Fusing" "Orb of Scouring" "Blessed Orb" "Cartographer's Chisel" "Orb of Regret" "Glassblower's Bauble" "Journeyman Cartographer's Seal" "Apprentice Cartographer's Seal"
     SetBorderColor 204 204 0
     SetFontSize 40
     SetTextColor 0 150 0
@@ -122,7 +179,6 @@ Show
     Class "Stackable Currency" "Currency"
     SetTextColor 0 150 0
 	
-# Legacy league changes
 Show
     Class "Misc Map Items"
     SetBorderColor 204 204 0
@@ -144,7 +200,7 @@ Show
 #Show
 #    BaseType "Sai" "Fleshripper" "Eclipse Staff" "Dragoon Sword" "Gemini Claw" "Exquisite Blade" "Behemoth Mace" "Maraketh Bow" "Tiger Hook" "Profane Wand" "Runic Hatchet" "Sambar Sceptre" "Coronal Maul" "Sacrificial Garb"
 #    SetFontSize 44
-#	 SetTextColor 230 214 177
+#    SetTextColor 230 214 177
 #    SetBorderColor 230 214 177
 	
 # Atlas of Worlds New Crafting Item Bases - No Resistance Boots Obviously
@@ -194,6 +250,10 @@ Show
 	
 Show
     Quality >= 14	
+	
+Show
+    BaseType "Hallowed Life Flask" "Divine Life Flask"
+    SetBorderColor 255 165 0
 	
 Show
     BaseType Flask
